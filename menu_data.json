@@ -1,0 +1,448 @@
+{
+    "Non-Veg Biryani": [
+        {
+            "id": 5,
+            "name": "Egg Biryani",
+            "price": 200.0,
+            "quantity": "1 plate"
+        },
+        {
+            "id": 2,
+            "name": "Chicken Biryani",
+            "price": 250.0,
+            "quantity": "1 plate"
+        },
+        {
+            "id": 1,
+            "name": "Mutton Biryani",
+            "price": 350.0,
+            "quantity": "1 plate"
+        }
+    ],
+    "Veg Biryani": [
+        {
+            "id": 3,
+            "name": "Veg Biryani",
+            "price": 180.0,
+            "quantity": "1 plate"
+        },
+        {
+            "id": 4,
+            "name": "Paneer Biryani",
+            "price": 220.0,
+            "quantity": "1 plate"
+        }
+    ],
+    "Veg Starters": [
+        {
+            "id": 8,
+            "name": "Veg Spring Roll",
+            "price": 150.0,
+            "quantity": "4 pcs"
+        },
+        {
+            "id": 7,
+            "name": "Gobi Manchurian",
+            "price": 160.0,
+            "quantity": "200 g"
+        },
+        {
+            "id": 9,
+            "name": "Mushroom 65",
+            "price": 170.0,
+            "quantity": "200 g"
+        },
+        {
+            "id": 10,
+            "name": "Baby Corn Fry",
+            "price": 180.0,
+            "quantity": "200 g"
+        },
+        {
+            "id": 6,
+            "name": "Paneer Tikka",
+            "price": 200.0,
+            "quantity": "200 g"
+        }
+    ],
+    "Non-Veg Starters": [
+        {
+            "id": 11,
+            "name": "Chicken 65",
+            "price": 220.0,
+            "quantity": "200 g"
+        },
+        {
+            "id": 13,
+            "name": "Chicken Wings",
+            "price": 240.0,
+            "quantity": "6 pcs"
+        },
+        {
+            "id": 12,
+            "name": "Grilled Chicken",
+            "price": 280.0,
+            "quantity": "250 g"
+        },
+        {
+            "id": 14,
+            "name": "Fish Fry",
+            "price": 300.0,
+            "quantity": "250 g"
+        },
+        {
+            "id": 15,
+            "name": "Prawn Fry",
+            "price": 320.0,
+            "quantity": "200 g"
+        }
+    ],
+    "South Indian": [
+        {
+            "id": 18,
+            "name": "Idli",
+            "price": 80.0,
+            "quantity": "2 pcs"
+        },
+        {
+            "id": 19,
+            "name": "Vada",
+            "price": 90.0,
+            "quantity": "2 pcs"
+        },
+        {
+            "id": 17,
+            "name": "Plain Dosa",
+            "price": 100.0,
+            "quantity": "1 plate"
+        },
+        {
+            "id": 20,
+            "name": "Pongal",
+            "price": 110.0,
+            "quantity": "1 plate"
+        },
+        {
+            "id": 16,
+            "name": "Masala Dosa",
+            "price": 120.0,
+            "quantity": "1 plate"
+        }
+    ],
+    "Fast Food": [
+        {
+            "id": 23,
+            "name": "French Fries",
+            "price": 120.0,
+            "quantity": "200 g"
+        },
+        {
+            "id": 25,
+            "name": "Shawarma",
+            "price": 130.0,
+            "quantity": "1 roll"
+        },
+        {
+            "id": 24,
+            "name": "Sandwich",
+            "price": 140.0,
+            "quantity": "1 piece"
+        },
+        {
+            "id": 21,
+            "name": "Burger",
+            "price": 150.0,
+            "quantity": "1 piece"
+        },
+        {
+            "id": 22,
+            "name": "Pizza",
+            "price": 250.0,
+            "quantity": "1 medium"
+        }
+    ],
+    "Desserts": [
+        {
+            "id": 27,
+            "name": "Ice Cream",
+            "price": 100.0,
+            "quantity": "1 scoop"
+        },
+        {
+            "id": 30,
+            "name": "Kulfi",
+            "price": 110.0,
+            "quantity": "1 stick"
+        },
+        {
+            "id": 26,
+            "name": "Gulab Jamun",
+            "price": 120.0,
+            "quantity": "2 pcs"
+        },
+        {
+            "id": 29,
+            "name": "Rasgulla",
+            "price": 130.0,
+            "quantity": "2 pcs"
+        },
+        {
+            "id": 28,
+            "name": "Brownie",
+            "price": 150.0,
+            "quantity": "1 piece"
+        }
+    ],
+    "Mocktails": [
+        {
+            "id": 33,
+            "name": "Lemon Soda",
+            "price": 70.0,
+            "quantity": "250 ml"
+        },
+        {
+            "id": 31,
+            "name": "Mojito",
+            "price": 90.0,
+            "quantity": "250 ml"
+        },
+        {
+            "id": 32,
+            "name": "Blue Lagoon",
+            "price": 110.0,
+            "quantity": "250 ml"
+        },
+        {
+            "id": 34,
+            "name": "Fruit Punch",
+            "price": 120.0,
+            "quantity": "300 ml"
+        },
+        {
+            "id": 35,
+            "name": "Virgin Margarita",
+            "price": 130.0,
+            "quantity": "250 ml"
+        }
+    ],
+    "Drink": [
+        {
+            "id": 40,
+            "name": "Water Bottle",
+            "price": 20.0,
+            "quantity": "1 L"
+        },
+        {
+            "id": 36,
+            "name": "Coke",
+            "price": 30.0,
+            "quantity": "250 ml"
+        },
+        {
+            "id": 37,
+            "name": "Pepsi",
+            "price": 30.0,
+            "quantity": "250 ml"
+        },
+        {
+            "id": 38,
+            "name": "Sprite",
+            "price": 30.0,
+            "quantity": "250 ml"
+        },
+        {
+            "id": 39,
+            "name": "Fanta",
+            "price": 30.0,
+            "quantity": "250 ml"
+        }
+    ],
+    "Chinese": [
+        {
+            "id": 44,
+            "name": "Veg Noodles",
+            "price": 170.0,
+            "quantity": "1 plate"
+        },
+        {
+            "id": 42,
+            "name": "Veg Fried Rice",
+            "price": 180.0,
+            "quantity": "1 plate"
+        },
+        {
+            "id": 45,
+            "name": "Schezwan Rice",
+            "price": 190.0,
+            "quantity": "1 plate"
+        },
+        {
+            "id": 41,
+            "name": "Chicken Fried Rice",
+            "price": 200.0,
+            "quantity": "1 plate"
+        },
+        {
+            "id": 43,
+            "name": "Chicken Noodles",
+            "price": 210.0,
+            "quantity": "1 plate"
+        }
+    ],
+    "Indian": [
+        {
+            "id": 48,
+            "name": "Chapati",
+            "price": 50.0,
+            "quantity": "2 pcs"
+        },
+        {
+            "id": 46,
+            "name": "Parotta",
+            "price": 60.0,
+            "quantity": "2 pcs"
+        },
+        {
+            "id": 47,
+            "name": "Butter Naan",
+            "price": 80.0,
+            "quantity": "1 piece"
+        },
+        {
+            "id": 49,
+            "name": "Dal Fry",
+            "price": 140.0,
+            "quantity": "1 bowl"
+        },
+        {
+            "id": 50,
+            "name": "Paneer Butter Masala",
+            "price": 220.0,
+            "quantity": "1 bowl"
+        }
+    ],
+    "Veg Pizza": [
+        {
+            "id": 51,
+            "name": "Margherita Pizza",
+            "price": 200.0,
+            "quantity": "1 medium"
+        },
+        {
+            "id": 59,
+            "name": "Onion Tomato Pizza",
+            "price": 230.0,
+            "quantity": "1 medium"
+        },
+        {
+            "id": 58,
+            "name": "Capsicum Pizza",
+            "price": 240.0,
+            "quantity": "1 medium"
+        },
+        {
+            "id": 52,
+            "name": "Veggie Delight Pizza",
+            "price": 250.0,
+            "quantity": "1 medium"
+        },
+        {
+            "id": 57,
+            "name": "Corn Cheese Pizza",
+            "price": 260.0,
+            "quantity": "1 medium"
+        },
+        {
+            "id": 56,
+            "name": "Mushroom Pizza",
+            "price": 270.0,
+            "quantity": "1 medium"
+        },
+        {
+            "id": 53,
+            "name": "Paneer Tikka Pizza",
+            "price": 280.0,
+            "quantity": "1 medium"
+        },
+        {
+            "id": 54,
+            "name": "Farmhouse Pizza",
+            "price": 300.0,
+            "quantity": "1 medium"
+        },
+        {
+            "id": 60,
+            "name": "Veg Supreme Pizza",
+            "price": 310.0,
+            "quantity": "1 medium"
+        },
+        {
+            "id": 55,
+            "name": "Cheese Burst Pizza",
+            "price": 320.0,
+            "quantity": "1 medium"
+        }
+    ],
+    "Non-Veg Pizza": [
+        {
+            "id": 61,
+            "name": "Chicken Pizza",
+            "price": 350.0,
+            "quantity": "1 medium"
+        },
+        {
+            "id": 69,
+            "name": "Chicken Pepper Pizza",
+            "price": 360.0,
+            "quantity": "1 medium"
+        },
+        {
+            "id": 62,
+            "name": "Chicken Tikka Pizza",
+            "price": 370.0,
+            "quantity": "1 medium"
+        },
+        {
+            "id": 65,
+            "name": "Chicken Sausage Pizza",
+            "price": 380.0,
+            "quantity": "1 medium"
+        },
+        {
+            "id": 66,
+            "name": "Spicy Chicken Pizza",
+            "price": 390.0,
+            "quantity": "1 medium"
+        },
+        {
+            "id": 63,
+            "name": "Pepperoni Pizza",
+            "price": 400.0,
+            "quantity": "1 medium"
+        },
+        {
+            "id": 67,
+            "name": "Chicken Supreme Pizza",
+            "price": 410.0,
+            "quantity": "1 medium"
+        },
+        {
+            "id": 64,
+            "name": "BBQ Chicken Pizza",
+            "price": 420.0,
+            "quantity": "1 medium"
+        },
+        {
+            "id": 70,
+            "name": "Chicken BBQ Deluxe",
+            "price": 430.0,
+            "quantity": "1 medium"
+        },
+        {
+            "id": 68,
+            "name": "Meat Lovers Pizza",
+            "price": 450.0,
+            "quantity": "1 medium"
+        }
+    ]
+}
