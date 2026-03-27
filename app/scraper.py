@@ -107,10 +107,5 @@ def run_scraper():
 
     finally:
         db.close()
-
-
-# -----------------------------
-# ENTRY POINT
-# -----------------------------
 if __name__ == "__main__":
     run_scraper()
