@@ -73,6 +73,26 @@ def extract_users():
 
 
 # -----------------------------
+# 2.5 STORE USERS IN DB
+# -----------------------------
+def store_users_in_db(db: Session, users):
+    from app import crud, schemas
+
+    for user_data in users:
+        # Check if exists by id
+        existing = db.query(models.User).filter(models.User.id == user_data["id"]).first()
+        if not existing:
+            user = schemas.UserCreate(
+                name=user_data["name"],
+                url=user_data["url"]
+            )
+            crud.create_user(db, user)
+            logger.info(f"Stored user: {user_data['name']}")
+        else:
+            logger.info(f"User already exists: {user_data['name']}")
+
+
+# -----------------------------
 # 3. DATABASE FETCH (YOUR PROJECT)
 # -----------------------------
 def fetch_menu_items(db: Session):
@@ -115,6 +135,38 @@ def extract_category_wise(items):
 
 
 # -----------------------------
+# 6. LOAD DATA FROM JSON TO DB
+# -----------------------------
+def load_data_from_json(db: Session, filename="menu_data.json"):
+    try:
+        with open(filename, "r") as f:
+            data = json.load(f)
+
+        from app import crud, schemas
+
+        for category, items in data.items():
+            for item in items:
+                # Check if exists
+                existing = db.query(models.MenuItem).filter(models.MenuItem.name == item["name"]).first()
+                if not existing:
+                    menu_item = schemas.MenuItemCreate(
+                        name=item["name"],
+                        category=category,
+                        price=item["price"],
+                        quantity=item["quantity"]
+                    )
+                    crud.create_item(db, menu_item)
+                    logger.info(f"Added: {item['name']}")
+                else:
+                    logger.info(f"Skipped (exists): {item['name']}")
+
+        logger.info("Data loaded from JSON to database")
+
+    except Exception as e:
+        logger.error(f"Error loading data: {e}")
+
+
+# -----------------------------
 # 6. SAVE TO JSON
 # -----------------------------
 def save_to_json(data, filename="menu_data.json"):
@@ -133,9 +185,15 @@ def run_scraper():
     try:
         logger.info("Starting scraper...")
 
+        # 🔹 Load initial data from JSON to DB
+        load_data_from_json(db)
+
         # 🔹 API extraction (assignment)
         api_data = extract_users()
         logger.info(f"Extracted {len(api_data)} users from API")
+
+        # 🔹 Store scraped data in DB
+        store_users_in_db(db, api_data)
 
         # 🔹 DB extraction (your project)
         items = fetch_menu_items(db)

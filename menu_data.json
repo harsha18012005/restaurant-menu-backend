@@ -444,5 +444,13 @@
             "price": 450.0,
             "quantity": "1 medium"
         }
+    ],
+    "Icecream": [
+        {
+            "id": 71,
+            "name": "Mango Icecream",
+            "price": 70.0,
+            "quantity": "200g"
+        }
     ]
 }
